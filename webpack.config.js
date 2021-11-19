@@ -17,7 +17,7 @@ module.exports = {
     new Dotenv(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'template-repo',
+      title: 'Giphy',
       template: './src/index.html',
       inject: 'body'
     })
